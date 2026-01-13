@@ -197,4 +197,30 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
+.gallery-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.gallery-item {
+    background: #111;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item figcaption {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+
 
